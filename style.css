@@ -144,3 +144,77 @@ nav ul li:hover ul{
     line-height: 2em;
 }
 
+#contact{
+    background-color: #95e095;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#contact h1{
+    margin: 80px 0;
+}
+
+#contact form{
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-group{
+    border-bottom: solid 1px white;
+    height: fit-content;
+}
+
+.form-group input, .form-group textarea{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    font-family: "roboto";
+    font-size: 1.5em;
+    color: rgba(255, 255, 255, 0.76);
+}
+
+.form-group input{
+    height: 2.5em;
+}
+
+.form-group input:focus, .form-group textarea:focus{
+    outline: none;
+}
+
+.form-group textarea{
+    resize: none;
+    height: 300px;
+}
+
+input[type="submit"]{
+    width: 10%;
+    font-family: "roboto";
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    border: none;
+    line-height: 1.5em;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: rgba(55, 55, 55, 0.7);
+}
+
+footer{
+    background-color: rgb(48, 43, 43);
+    height: 20vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
